@@ -6,16 +6,16 @@
 
 - **Group Number**: Gr26EC431
 - **Group Members**:
-  1. **Tarun Manoj Kumar Sahu**
-     - **ID**: 202151171
-  2. **Aditya Singhal**
+  1.**Aditya Singhal**
      - **ID**: 202151008
-  3. **Pratyush Dixit**
+  2. **Pratyush Dixit**
      - **ID**: 202151119
-  4. **Waikar Om Anant**
-     - **ID**: 202152344
-  5. **Raghav Agiwal**
+  3. **Raghav Agiwal**
      - **ID**: 202151124
+  4. **Tarun Manoj Kumar Sahu**
+     - **ID**: 202151171
+  5. **Waikar Om Anant**
+     - **ID**: 202152344
 
 ---
 

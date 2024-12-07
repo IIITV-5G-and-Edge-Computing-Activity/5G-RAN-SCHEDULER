@@ -1,0 +1,109 @@
+5G RAN Scheduling Simulation Results
+Total Bandwidth: 100 Mbps
+Max Bandwidth per User: 20 Mbps
+Number of Users: 10
+
+QoS Distribution:
+User 1: QoS Type = Low
+User 2: QoS Type = High
+User 3: QoS Type = Low
+User 4: QoS Type = Low
+User 5: QoS Type = High
+User 6: QoS Type = Low
+User 7: QoS Type = Medium
+User 8: QoS Type = Low
+User 9: QoS Type = Low
+User 10: QoS Type = Medium
+
+Round Robin Scheduling Allocation:
+User 1 - Allocated Bandwidth: 10.0 Mbps
+User 2 - Allocated Bandwidth: 10.0 Mbps
+User 3 - Allocated Bandwidth: 10.0 Mbps
+User 4 - Allocated Bandwidth: 10.0 Mbps
+User 5 - Allocated Bandwidth: 10.0 Mbps
+User 6 - Allocated Bandwidth: 10.0 Mbps
+User 7 - Allocated Bandwidth: 10.0 Mbps
+User 8 - Allocated Bandwidth: 10.0 Mbps
+User 9 - Allocated Bandwidth: 10.0 Mbps
+User 10 - Allocated Bandwidth: 10.0 Mbps
+
+Shortest Job First (SJF) Allocation:
+User 2 - Allocated Bandwidth: 5 Mbps
+User 10 - Allocated Bandwidth: 6 Mbps
+User 7 - Allocated Bandwidth: 7 Mbps
+User 9 - Allocated Bandwidth: 9 Mbps
+User 4 - Allocated Bandwidth: 10 Mbps
+User 6 - Allocated Bandwidth: 11 Mbps
+User 8 - Allocated Bandwidth: 11 Mbps
+User 5 - Allocated Bandwidth: 15 Mbps
+User 1 - Allocated Bandwidth: 17 Mbps
+User 3 - Allocated Bandwidth: 20 Mbps
+
+Priority-based Scheduling Allocation:
+User 1 - Allocated Bandwidth: 20.0 Mbps
+User 2 - Allocated Bandwidth: 40.0 Mbps
+User 3 - Allocated Bandwidth: 20.0 Mbps
+User 4 - Allocated Bandwidth: 20.0 Mbps
+User 5 - Allocated Bandwidth: 40.0 Mbps
+User 6 - Allocated Bandwidth: 20.0 Mbps
+User 7 - Allocated Bandwidth: 30.0 Mbps
+User 8 - Allocated Bandwidth: 20.0 Mbps
+User 9 - Allocated Bandwidth: 20.0 Mbps
+User 10 - Allocated Bandwidth: 30.0 Mbps
+
+Weighted Proportional Fair Allocation:
+User 1 - Allocated Bandwidth: 15.315315315315313 Mbps
+User 2 - Allocated Bandwidth: 4.504504504504505 Mbps
+User 3 - Allocated Bandwidth: 18.01801801801802 Mbps
+User 4 - Allocated Bandwidth: 9.00900900900901 Mbps
+User 5 - Allocated Bandwidth: 13.513513513513514 Mbps
+User 6 - Allocated Bandwidth: 9.90990990990991 Mbps
+User 7 - Allocated Bandwidth: 6.306306306306306 Mbps
+User 8 - Allocated Bandwidth: 9.90990990990991 Mbps
+User 9 - Allocated Bandwidth: 8.108108108108109 Mbps
+User 10 - Allocated Bandwidth: 5.405405405405405 Mbps
+
+Earliest Deadline First (EDF) Allocation:
+User 5 - Allocated Bandwidth: 10.0 Mbps
+User 3 - Allocated Bandwidth: 10.0 Mbps
+User 8 - Allocated Bandwidth: 10.0 Mbps
+User 10 - Allocated Bandwidth: 10.0 Mbps
+User 7 - Allocated Bandwidth: 10.0 Mbps
+User 4 - Allocated Bandwidth: 10.0 Mbps
+User 9 - Allocated Bandwidth: 10.0 Mbps
+User 6 - Allocated Bandwidth: 10.0 Mbps
+User 2 - Allocated Bandwidth: 10.0 Mbps
+User 1 - Allocated Bandwidth: 10.0 Mbps
+
+Maximal Scheduling with Interference Mitigation Allocation:
+User 1 - Allocated Bandwidth: 10 Mbps
+User 2 - Allocated Bandwidth: 5 Mbps
+User 3 - Allocated Bandwidth: 5 Mbps
+User 4 - Allocated Bandwidth: 7 Mbps
+User 5 - Allocated Bandwidth: 10 Mbps
+User 6 - Allocated Bandwidth: 6 Mbps
+User 7 - Allocated Bandwidth: 8 Mbps
+User 8 - Allocated Bandwidth: 3 Mbps
+User 9 - Allocated Bandwidth: 5 Mbps
+User 10 - Allocated Bandwidth: 9 Mbps
+
+Queue-based Scheduling Allocation:
+User 1 - Allocated Bandwidth: 2 Mbps
+User 2 - Allocated Bandwidth: 3 Mbps
+User 3 - Allocated Bandwidth: 6 Mbps
+User 4 - Allocated Bandwidth: 9 Mbps
+User 5 - Allocated Bandwidth: 2 Mbps
+User 6 - Allocated Bandwidth: 2 Mbps
+User 7 - Allocated Bandwidth: 10 Mbps
+User 8 - Allocated Bandwidth: 6 Mbps
+User 9 - Allocated Bandwidth: 5 Mbps
+User 10 - Allocated Bandwidth: 1 Mbps
+
+Comparison of Scheduling Algorithms based on Fairness (Lower is Better):
+Round Robin Scheduling: Fairness (Variance) = 0.00
+Shortest Job First (SJF): Fairness (Variance) = 21.49
+Priority-based Scheduling: Fairness (Variance) = 64.00
+Weighted Proportional Fair: Fairness (Variance) = 17.44
+Earliest Deadline First (EDF): Fairness (Variance) = 0.00
+Maximal Scheduling with Interference Mitigation: Fairness (Variance) = 5.16
+Queue-based Scheduling: Fairness (Variance) = 8.84
