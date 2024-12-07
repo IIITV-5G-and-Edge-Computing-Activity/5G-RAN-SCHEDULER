@@ -19,6 +19,10 @@
 
 ---
 
+- **Google Drive Link**: [Project Video](https://drive.google.com/file/d/13-fu737tEAg2JKjEviOkq-Ud-_TN3Fcq/view?usp=sharing)
+
+---
+
 ## 📜 **Overview**
 
 The **5G RAN Scheduling Simulation** project replicates and evaluates the behavior of various scheduling algorithms used in **5G Radio Access Networks (RANs)**. This simulation compares multiple strategies for bandwidth allocation while considering:
